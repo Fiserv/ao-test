@@ -1,3 +1,7 @@
+# Reporting API
+
+## Omaha Specific Calls
+
 ### GetOmahaMerchantProfile
 
 Return a full profile for specific Omaha merchant.  

@@ -1,3 +1,7 @@
+# Reporting API
+
+## North Specific Calls
+
 ### GetNorthMerchantProfile
 
 Return a full profile data for specific North merchant.  

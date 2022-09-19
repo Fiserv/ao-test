@@ -1,4 +1,6 @@
-## Available Reporting API Calls :
+# Reporting API
+
+## All Platforms
 
 ### GetBatchSummaryByEntity
 

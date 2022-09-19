@@ -1,3 +1,7 @@
+# Reporting API
+
+## Memphis Specific Calls
+
 ### GetMemphisMerchantProfile
 
 Return a full profile for specific Memphis merchant.  
