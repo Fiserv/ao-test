@@ -62,11 +62,11 @@
   - title: Reporting
     link: docs/Reporting.md
     sections:
-    - title: Reporting 1
-      link: docs/Reporting/start.md
-    - title: Reporting 2
-      link: docs/Reporting/start.md
-    - title: Reporting 3
-      link: docs/Reporting/start.md
-    - title: Reporting 4
-      link: docs/Reporting/start.md
+    - title: All Platforms
+      link: docs/Reporting/All.md
+    - title: Omaha
+      link: docs/Reporting/Omaha.md
+    - title: North
+      link: docs/Reporting/North.md
+    - title: memphis
+      link: docs/Reporting/Memphis.md
