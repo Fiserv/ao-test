@@ -24,16 +24,16 @@ paths:
           schema:
             title: String
             type: string
-            example: API-UserName
-          example: API-UserName
+            example: API_User
+          example: API_User
         - name: password
           in: header
           description: The password was encrypted with algorithm SHA256
           schema:
             title: String
             type: string
-            example: dee30bfb3fa87efb97237539fa9fb994e411234bb760abe987b9b6912ee70d67
-          example: dee30bfb3fa87efb97237539fa9fb994e411234bb760abe987b9b6912ee70d67
+            example: dee30bfb3fa87efb97237539fa9fb994e411234bb760abe987b9b6912ee70d98
+          example: dee30bfb3fa87efb97237539fa9fb994e411234bb760abe987b9b6912ee70d98
       responses:
         '200':
           description: Success response.
@@ -1658,7 +1658,7 @@ components:
           type: string
           maxLength: 36
           nullable: true
-          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API-UserNamexx'
+          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API_Userxx'
         status:
           description: Status
           type: string
@@ -1715,7 +1715,7 @@ components:
           type: string
           maxLength: 36
           nullable: true
-          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API-UserNamexx'
+          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API_Userxx'
         status:
           description: Status
           type: string
@@ -1759,7 +1759,7 @@ components:
           type: string
           maxLength: 36
           nullable: true
-          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API-UserNamexx'
+          example: 'xxxxxxxx-xxxx-xxxx-xxxx-API_Userxx'
         status:
           description: Status
           type: string
