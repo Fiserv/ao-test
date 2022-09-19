@@ -1412,22 +1412,25 @@ paths:
                 status: InternalServerError
                 timestamp: '2022-02-23T04:05:33.5837994Z'
                 messages: []
-  /v1/api/accountmaintenance/update/equipment/programming:
+  /v1/api/Reporting/GetBatchDetail:
     post:
       tags:
-        - Equipment Update
-      x-group-name: Account Maintenance
-      x-proxy-name: Update Equipment Programming Details
-      operationId: updateProgrammingDetails
-      summary: Programming details update service.
-      description: This service updates Programming detail.
+        - Reporting Batch
+      x-group-name: Reporting
+      x-proxy-name: GetBatchDetail
+      operationId: Get Batch Detail
+      summary: Return transaction-details data of a selected batch number.
+      description: Return transaction-details data of a selected batch number.
       parameters:
         - $ref: '#/components/parameters/bePlatformCode'
       requestBody:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/ProgrammingUpdateRequest'
+              $ref: '#/components/schemas/BatchDetailFilter'
+          application/xml:
+            schema:
+              $ref: '#/components/schemas/BatchDetailFilter'
       responses:
         '200':
           description: Success response.
