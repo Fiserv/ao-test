@@ -20,5 +20,6 @@ The Disputes Overview provides an overview of Outstanding, Reversed, and Closed 
 
 ## Retrievals
 
-While there are many reasons an issuing bank may send a retrieval request, the notification process can be very simple. The Retrievals selection will help you facilitate the process of retrieving and fulfilling sales draft requests. In some instances, unanswered retrieval requests can result in a chargeback being initiated by the issuing bank.
+While there are many reasons an issuing bank may send a retrieval request, the notification process can be very simple. The Retrievals selection will help you facilitate the process of retrieving and fulfilling sales draft requests. In some instances, unanswered retrieval requests can result in a chargeback being initiated by the issuing bank.  
+
 More information, specification document is available on firstdataclients.com by navigating to Acquiring & ISO Solutions > AccessOne > AccessOne API Spec Documents.
