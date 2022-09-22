@@ -1415,7 +1415,7 @@ paths:
   /v1/api/Reporting/GetBatchDetail:
     post:
       tags:
-        - Reporting Batch
+        - Reporting
       x-group-name: Reporting
       x-proxy-name: GetBatchDetail
       operationId: Get Batch Detail
