@@ -1429,10 +1429,10 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/BatchDetailFilter'
+              $ref: '#/components/schemas/UpdateResponse'
           application/xml:
             schema:
-              $ref: '#/components/schemas/BatchDetailFilter'
+              $ref: '#/components/schemas/UpdateResponse'
       responses:
         '200':
           description: Success response.
