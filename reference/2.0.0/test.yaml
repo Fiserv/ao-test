@@ -16,7 +16,7 @@ paths:
         - Authorization
       x-proxy-name: Authorization
       operationId: Authorization
-      summary: Generate an sectoken token for user authentication.
+      summary: Generate a token token for user authentication.
       parameters:
         - name: user
           in: header
