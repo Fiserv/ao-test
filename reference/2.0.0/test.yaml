@@ -14,7 +14,8 @@ paths:
     get:
       tags:
         - Authorization
-      x-proxy-name: Authorization
+      x-group-name: Authorization
+      x-child-product-name: Authorization
       operationId: Authorization
       summary: Generate a token token for user authentication.
       parameters:
@@ -1416,8 +1417,9 @@ paths:
     post:
       tags:
         - Reporting
-      x-group-name: Reporting
+      x-group-name: All Platforms
       x-proxy-name: GetBatchDetail
+      x-child-product-name: Reporting
       operationId: Get Batch Detail
       summary: Return transaction-details data of a selected batch number.
       description: Return transaction-details data of a selected batch number.
