@@ -212,6 +212,7 @@ paths:
         - Boarding North
       x-group-name: Boarding North
       x-proxy-name: Get North Status By Time Span
+      x-child-product-name: Boarding
       operationId: northGetStatusByTimeSpan
       summary: Get North Boarding Status by Time Span.
       description: This service is used for retrieving the states and statuses of submitted North MPAs within a limited time window that spans 168 hours.
@@ -257,6 +258,7 @@ paths:
         - Boarding North
       x-group-name: Boarding North
       x-proxy-name: Retrieve North MPA XML
+      x-child-product-name: Boarding
       operationId: northRetrieveMpaXml
       summary: Get North Boarding Request Data.
       description: This service is used for retrieving all MPA-oriented details of submitted North MPAs.
@@ -302,6 +304,7 @@ paths:
         - Boarding North
       x-group-name: Boarding North
       x-proxy-name: North Search By External Reference ID
+      x-child-product-name: Boarding
       operationId: NorthSearchByExtRefID
       summary: Search North Boarding by External Reference ID
       description: This service is used for searching the details that was sent in the original North SubmitMPA Request by the ExtRefID.
@@ -347,6 +350,7 @@ paths:
         - Boarding North
       x-group-name: Boarding North
       x-proxy-name: Submit North MPA
+      x-child-product-name: Boarding
       operationId: NorthSubmitMPA
       summary: Submit North Boarding Request Data.
       description: This service is used for submitting North MPAs.
@@ -392,6 +396,7 @@ paths:
         - Boarding Optis
       x-group-name: Boarding Optis
       x-proxy-name: Get Optis Status By Time Span
+      x-child-product-name: Boarding
       operationId: optisGetStatusByTimeSpan
       summary: Get Optis Boarding Status by Time Span.
       description: This service is used for retrieving the states and statuses of submitted Omaha MPAs within a limited time frame that span 168 hours.
@@ -437,6 +442,7 @@ paths:
         - Boarding Optis
       x-group-name: Boarding Optis
       x-proxy-name: Retrieve Optis MPA XML
+      x-child-product-name: Boarding
       operationId: optisRetrieveMpaXml
       summary: Get Optis Boarding Request Data.
       description: This service is used for retrieving all MPA-oriented details of submitted Omaha MPAs.
@@ -482,6 +488,7 @@ paths:
         - Boarding Optis
       x-group-name: Boarding Optis
       x-proxy-name: Optis Search By External Reference ID
+      x-child-product-name: Boarding
       operationId: optisSearchByExtRefID
       summary: Search Optis Boarding by External Reference ID
       description: This service is used for searching the details that was sent in the original Omaha SubmitMPA Request by the ExtRefID.
@@ -527,6 +534,7 @@ paths:
         - Boarding Optis
       x-group-name: Boarding Optis
       x-proxy-name: Submit Optis MPA
+      x-child-product-name: Boarding
       operationId: optisSubmitMPA
       summary: Submit Optis Boarding Request Data.
       description: This service is used for submitting Omaha MPAs.
@@ -572,6 +580,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Addendum Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetAddendumFields
       summary: Documentation on Addendum Fields (not an actual API).
       description: Documentation on Addendum Fields.  This is not an actual API.  The information is included here to provide a full listing of all addendum fields.  This included the  field data types, valid values, and field lengths.
@@ -593,6 +602,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: Check Request Status
+      x-child-product-name: Account Maintenance
       operationId: checkRequestStatus
       summary: Check merchant status.
       description: ''
@@ -663,6 +673,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry All Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetAllFields
       summary: Merchant Master Inquiry Service for All Fields.
       description: This service can be used by clients to retrieve all merchant master fields across backend platforms.  The merchant demographic information is retrieved.  This can be used when a granular level request does not work.  For efficiency purposes, a granular level request should be the first thing to try.
@@ -763,6 +774,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Billing Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetBilliingFields
       summary: Merchant Master Inquiry for Blling Fields.
       description: This service can be used as a granular level request by clients to retrieve billing related merchant master fields across backend platforms.
@@ -845,6 +857,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Entitlement Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetEntitlements
       summary: Merchant Master Inquiry for Entitlement Fields
       description: This service can be used by clients as a granular level request to retrieve entitlement/card brand fields across backend platforms. 
@@ -950,6 +963,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Funding Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetFundingFields
       summary: Merchant Master Inquiry for Funding Fields.
       description: This service can be used by clients as a granular level request to retrieve entitlement/card brand fields across backend platforms. 
@@ -1050,6 +1064,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Location Chaining
+      x-child-product-name: Account Maintenance
       operationId: mmGetLocationChaining
       summary: Merchant Master Inquiry for Location Chaining Fields.
       description: This service can be used as a granular level request by clients to retrieve all location chaining merchant master fields across backend platforms.
@@ -1150,6 +1165,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Merchant Profile
+      x-child-product-name: Account Maintenance
       operationId: mmGetMerchantProfile
       summary: Merchant Master Inquiry for Merchant Profile Fields.
       description: This service can be used as a granular level request by clients to retrieve all merchant profile merchant master fields across backend platforms.
@@ -1250,6 +1266,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Program Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetProgramFields
       summary: Merchant Master Inquiry for Program Fields.
       description: This service can be used by clients as a granular level request to retrieve merchant program fields across backend platforms. 
@@ -1341,6 +1358,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Inquiry Self Service Fields
+      x-child-product-name: Account Maintenance
       operationId: mmGetSelfServiceFields
       summary: Merchant Master Inquiry for Self Service Fields
       description: This service can be used by clients to retrieve self service fields for merchant master data spanning across backend platforms. 
@@ -1432,6 +1450,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: MM Update
+      x-child-product-name: Account Maintenance
       operationId: mmUpdate
       summary: Merchant Master Update Service
       description: This service can be used by clients to update merchant master data spanning across backend platforms. 
@@ -1530,6 +1549,7 @@ paths:
         - Account Maintenance
       x-group-name: Account Maintenance
       x-proxy-name: Unmask
+      x-child-product-name: Account Maintenance
       operationId: mmUnmask
       summary: Merchant Master Field Unmask Service
       description: This service is used to allow users with appropriate privilieges to unmask encrypted fields to get returned data in the clear.
@@ -1600,6 +1620,7 @@ paths:
         - Equipment Information
       x-group-name: Equipment Information
       x-proxy-name: Equipment Search With Terminal ID
+      x-child-product-name: Account Maintenance
       operationId: getEquipmentDetailForMidTid
       summary: Detail for a given equipment.
       description: This service returns the Equipment detail (including application, features and request) for a given merchant and equipment combination. Here {num} stands for equipment number or terminalId. The required parameters are :equipmentNumber (if present), :terminalId (if present), :merchantNumber, :equipContext, :merchantContext. The context information is received as part of /merchant/{num}/equipment response.
@@ -1652,6 +1673,7 @@ paths:
         - Equipment Information
       x-group-name: Equipment Information
       x-proxy-name: Equipment Search With Merchant ID
+      x-child-product-name: Account Maintenance
       operationId: getEquipmentDetailForMerchant
       summary: All equipment (with basic details) for a given merchant.
       description: This service returns the list of Equipment detail (excluding application, features and request) for a given merchant. Here {num} stands for merchant number. The required parameters are :merchantNumber, :keyedBy. Optional parameters include :platform, :network.
@@ -1704,6 +1726,7 @@ paths:
         - Equipment Information
       x-group-name: Equipment Information
       x-proxy-name: Update Equipment Features
+      x-child-product-name: Account Maintenance
       operationId: updateEquipmentFeatures
       summary: Equipment features update service.
       description: This service updates Equipment features.
@@ -1755,6 +1778,7 @@ paths:
         - Equipment Information
       x-group-name: Equipment Information
       x-proxy-name: Update Equipment Programming Details
+      x-child-product-name: Account Maintenance
       operationId: updateProgrammingDetails
       summary: Programming details update service.
       description: This service updates Programming detail.
@@ -1805,7 +1829,8 @@ paths:
       tags:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
-      x-proxy-name: Get All Other MCC Merchants Customer Present By Entity 
+      x-proxy-name: Get All Other MCC Merchants Customer Present By Entity
+      x-child-product-name: Reporting
       operationId: GetAllOtherMCCMerchantsCustomerPresentByEntity
       summary: Get All Other MCC Merchants Customer Present By Entity.
       description: ''
@@ -1890,6 +1915,7 @@ paths:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
       x-proxy-name: Get All Other MCC Merchants Customer Present By Merchant
+      x-child-product-name: Reporting
       operationId: GetAllOtherMCCMerchantsCustomerPresentByMerchant
       summary: Get All Other MCC Merchants Customer Present By Merchant.
       description: Return all other MCC  merchants customer present data of selected merchant number.
@@ -1974,6 +2000,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log BuyPass Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogBuyPassDetail
       summary: Get Authorization Log BuyPass Detail.
       description: Return detailed data of Buypass authorization transactions for a specific merchant number, based on the selected date range.
@@ -2058,6 +2085,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log BuyPass Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogBuyPassSummary
       summary: Get Authorization Log BuyPass Summary.
       description: Return summarized data of Buypass authorization transactions based on the selected criteria.
@@ -2142,6 +2170,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogDetail
       summary: Get Authorization Log Detail.
       description: Return detailed data of authorization transactions for a specific merchant number, based on the selected date range.
@@ -2226,6 +2255,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log GGe4 Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogGGe4Detail
       summary: Get Authorization Log Gateway Detail.
       description: Return detailed data of GGe4 authorization transactions for a specific merchant number, based on the selected date range.
@@ -2310,6 +2340,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: GetAuthorizationLogGGe4Summary
+      x-child-product-name: Reporting
       operationId: Get Authorization Log GGe4 Summary
       summary: Get Authorization Log Gateway Summary.
       description: Return summarized data of GGe4 authorization transactions based on the selected criteria.
@@ -2394,6 +2425,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Nashville Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogNashvilleDetail
       summary: Get Authorization Log Nashville Detail.
       description: Return detailed data of Nashville authorization transactions for a specific merchant number, based on the selected date range.
@@ -2478,6 +2510,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Nashville Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogNashvilleSummary
       summary: Get Authorization Log Nashville Summary.
       description: Return summarized data of Nashville authorization transactions based on the selected criteria.
@@ -2562,6 +2595,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log North Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogNorthDetail
       summary: Get Authorization Log North Detail.
       description: Return detailed data of North authorization transactions for a specific merchant number, based on the selected date range.
@@ -2646,6 +2680,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log North Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogNorthSummary
       summary: Get Authorization Log North Summary.
       description: Return summarized data of North authorization transactions based on the selected criteria.
@@ -2730,6 +2765,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Omaha Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogOmahaDetail
       summary: Get Authorization Log Omaha Detail.
       description: Return detailed data of Omaha authorization transactions for a specific merchant number, based on the selected date range.
@@ -2814,6 +2850,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Omaha Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogOmahaSummary
       summary: Get Authorization Log Omaha Summary.
       description: Return summarized data of Omaha authorization transactions based on the selected criteria.
@@ -2898,6 +2935,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Log Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationLogSummary
       summary: Get Authorization Log Summary.
       description: Return summarized data of authorization transactions based on the selected criteria.
@@ -2982,6 +3020,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Vendor Detail
+      x-child-product-name: Reporting
       operationId: GetAuthorizationVendorDetail
       summary: Get Authorization Vendor Detail.
       description: Return detailed data of authorization transactions by vendors for a specific merchant number, based on the selected date range.
@@ -3066,6 +3105,7 @@ paths:
         - Reporting Authorizations
       x-group-name: Reporting Authorizations
       x-proxy-name: Get Authorization Vendor Summary
+      x-child-product-name: Reporting
       operationId: GetAuthorizationVendorSummary
       summary: Get Authorization Vendor Summary.
       description: Return summarized data of authorization transactions by vendors based on the selected criteria.
@@ -3150,6 +3190,7 @@ paths:
         - Reporting Batch
       x-group-name: Reporting Batch
       x-proxy-name: Get Batch Detail
+      x-child-product-name: Reporting
       operationId: GetBatchDetail
       summary: Get Batch Detail.
       description: Return transaction-details data of a selected batch number.
@@ -3234,6 +3275,7 @@ paths:
         - Reporting Batch
       x-group-name: Reporting Batch
       x-proxy-name: Get Batch Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetBatchSummaryByEntity
       summary: Get Batch Summary by Entity.
       description: Return batch summary data of hierarchy entity choice(s) based on the selected date range.
@@ -3318,6 +3360,7 @@ paths:
         - Reporting Batch
       x-group-name: Reporting Batch
       x-proxy-name: Get Batch Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetBatchSummaryByMerchant
       summary: Get Batch Summary by Merchant.
       description: Return batch summary data of the selected merchant number.
@@ -3402,6 +3445,7 @@ paths:
         - Reporting Batch
       x-group-name: Reporting Batch
       x-proxy-name: Get Card Summary
+      x-child-product-name: Reporting
       operationId: GetCardSummary
       summary: Get Card Summary.
       description: Return card summary data based on selected date range.
@@ -3486,6 +3530,7 @@ paths:
         - Reporting ChargeBack
       x-group-name: Reporting Chargeback
       x-proxy-name: Get Chargebacks Detail
+      x-child-product-name: Reporting
       operationId: GetChargebacksDetail
       summary: Get Chargebacks Detail.
       description: Return detailed data of chargeback transactions of a specific merchant number, based on the selected date range.
@@ -3570,6 +3615,7 @@ paths:
         - Reporting ChargeBack
       x-group-name: Reporting Chargeback
       x-proxy-name: Get Chargebacks Summary
+      x-child-product-name: Reporting
       operationId: GetChargebacksSummary
       summary: Get Chargebacks Summary.
       description: Return chargeback data at summary level based on the selected date range.
@@ -3654,6 +3700,7 @@ paths:
         - Reporting Chat History
       x-group-name: Reporting Chat History
       x-proxy-name: Get Chat History By Merchant
+      x-child-product-name: Reporting
       operationId: GetChatHistoryByMerchant
       summary: Get Chat History by Merchant.
       description: Return chat history of a specific merchant.
@@ -3738,6 +3785,7 @@ paths:
         - Reporting Chat History
       x-group-name: Reporting Chat History
       x-proxy-name: Get Chat History Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetChatHistorySummaryByEntity
       summary: Get Chat History by Entity.
       description: Return Chat history data of the entity choices based on the selected date range.
@@ -3822,6 +3870,7 @@ paths:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
       x-proxy-name: Get Customer Not Present By Entity
+      x-child-product-name: Reporting
       operationId: GetCustomerNotPresentByEntity
       summary: Get Customer Not Present by Entity.
       description: Return Customer Not Present data of the entity choices based on the selected date range.
@@ -3906,6 +3955,7 @@ paths:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
       x-proxy-name: Get Customer Not Present By Merchant
+      x-child-product-name: Reporting
       operationId: GetCustomerNotPresentByMerchant
       summary: Get Customer Not Present by Merchant.
       description: Return CustomerNot Present data of a selected merchant number.
@@ -3990,6 +4040,7 @@ paths:
         - Reporting EMV Indicator
       x-group-name: Reporting EMV Indicator
       x-proxy-name: Get EMV Indicator Report By Entity
+      x-child-product-name: Reporting
       operationId: GetEMVIndicatorReportByEntity
       summary: Get EMV Indicator Report by Entity.
       description: Return chat history of a specific merchant.
@@ -4074,6 +4125,7 @@ paths:
         - Reporting EMV Indicator
       x-group-name: Reporting EMV Indicator
       x-proxy-name: Get EMV Indicator Report By Merchant
+      x-child-product-name: Reporting
       operationId: GetEMVIndicatorReportByMerchant
       summary: Get EMV Indicator Report by Merchant.
       description: Return EMV indicator report of the merchant.
@@ -4158,6 +4210,7 @@ paths:
         - Reporting Merchant Enrollments
       x-group-name: Reporting Merchant Enrollments
       x-proxy-name: Get GGe4 Merchant Enrollment
+      x-child-product-name: Reporting
       operationId: GetGGe4MerchantEnrollment
       summary: Get Gateway Merchant Enrollment.
       description: Return Payeezy Gateway Enrollment Activity report.
@@ -4242,6 +4295,7 @@ paths:
         - Reporting Merchant Enrollments
       x-group-name: Reporting Merchant Enrollments
       x-proxy-name: Get GGe4 Merchant Enrollment By Merchant
+      x-child-product-name: Reporting
       operationId: GetGGe4MerchantEnrollmentByMerchant
       summary: Get Gateway Merchant Enrollment by Merchant.
       description: Return Payeezy Gateway Enrollment Activity report of the selected merchant number.
@@ -4326,6 +4380,7 @@ paths:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
       x-proxy-name: Get HV Merchants Customer Present By Entity
+      x-child-product-name: Reporting
       operationId: GetHVMMerchantsCustomerPresentByEntity
       summary: Get Gateway Merchant Enrollment by Entity.
       description: Return high volume merchants customer present data of the entity choices based on the selected date range.
@@ -4410,6 +4465,7 @@ paths:
         - Reporting Customer Present
       x-group-name: Reporting Customer Present
       x-proxy-name: Get HV Merchants Customer Present By Merchant
+      x-child-product-name: Reporting
       operationId: GetHVMMerchantsCustomerPresentByMerchant
       summary: Get HV Merchants Customer Present by Merchant.
       description: Return high volume merchants customer present data of selected merchant number.
@@ -4494,6 +4550,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Attributes
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantAttributes
       summary: Get Memphis Merchant Detailed Attributes.
       description: Return detailed data of the attributes of the Memphis merchant.
@@ -4578,6 +4635,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Buypass Information
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantBuypassInformation
       summary: Get Memphis Merchant Buypass Information.
       description: ''
@@ -4662,6 +4720,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Card Information
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantCardInformation
       summary: Get Memphis Merchant Card Information.
       description: Return data relating to card payment services accepted/rejected by the Memphis merchant.
@@ -4746,6 +4805,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Card Information Detail
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantCardInformationDetail
       summary: Get Memphis Merchant Card Information Detail.
       description: Return data relating to equipment specifics and equipment extras of the chosen equipment ID.
@@ -4830,6 +4890,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Card Services Information
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantCardServicesInformation
       summary: Get Memphis Merchant Card Services Information.
       description: Return data relating to additional card payment services accepted/rejected by the Memphis merchant.
@@ -4914,6 +4975,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Debit Networks
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantDebitNetworks
       summary: Get Memphis Merchant Debit Networks.
       description: Return data of debit networks that the Memphis merchant participates.
@@ -4998,6 +5060,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Equipment Attributes
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantEquipmentAttributes
       summary: Get Memphis Merchant Equipment Attributes.
       description: Return detailed data on the attributes of the chosen equipment id.
@@ -5082,6 +5145,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Equipments
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantEquipments
       summary: Get Memphis Merchant Equipment.
       description: Return detailed data of the equipments currently in use by the Memphis merchant.
@@ -5166,6 +5230,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Equipment Specific Extra
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantEquipmentSpecifications
       summary: Get Memphis Merchant Equipment Specific Extra.
       description: Return detailed data of all sub card payment services of the selected card payment service accepted by the Memphis merchant.
@@ -5250,6 +5315,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Memphis Merchant Profile
+      x-child-product-name: Reporting
       operationId: GetMemphisMerchantProfile
       summary: Get Memphis Merchant Profile.
       description: Return a full profile for specific Memphis merchant.
@@ -5334,6 +5400,7 @@ paths:
         - Reporting Merchant Adjustments
       x-group-name: Reporting Merchant Adjustments
       x-proxy-name: Get Merchant Adjustment Detail
+      x-child-product-name: Reporting
       operationId: GetMerchantAdjustmentDetail
       summary: Get Merchant Adjustment Detail.
       description: Return merchant adjustment details of selected merchant number.
@@ -5418,6 +5485,7 @@ paths:
         - Reporting Merchant Adjustments
       x-group-name: Reporting Merchant Adjustments
       x-proxy-name: Get Merchant Adjustment Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetMerchantAdjustmentSummaryByEntity
       summary: Get Merchant Adjustment Summary by Entity.
       description: Return merchant adjustment data of the entity choices based on the selected date range.
@@ -5502,6 +5570,7 @@ paths:
         - Reporting Merchant Adjustments
       x-group-name: Reporting Merchant Adjustments
       x-proxy-name: Get Merchant Adjustment Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetMerchantAdjustmentSummaryByMerchant
       summary: Get Merchant Adjustment Summary by Merchant.
       description: Return merchant adjustment data of selected merchant number.
@@ -5586,6 +5655,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Merchant Comments
+      x-child-product-name: Reporting
       operationId: GetMerchantComments
       summary: Get Merchant Comments.
       description: Return the list of comment for specific merchant.
@@ -5670,6 +5740,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Merchant List
+      x-child-product-name: Reporting
       operationId: GetMerchantList
       summary: Get Merchant List.
       description: Return a merchant list with detailed data for each merchant based on the selected criteria.
@@ -5754,6 +5825,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Monetary Rejects By Entity
+      x-child-product-name: Reporting
       operationId: GetMonetaryRejectsByEntity
       summary: Get Monetary Rejects by Entity.
       description: Return Monetary Rejects summary report.
@@ -5838,6 +5910,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Monetary Rejects By Merchant
+      x-child-product-name: Reporting
       operationId: GetMonetaryRejectsByMerchant
       summary: Get Monetary Rejects by Merchant.
       description: Return Monetary Rejects report in detail.
@@ -5922,6 +5995,7 @@ paths:
         - Reporting Non Qualifying Transactions
       x-group-name: Reporting Non Qualifying Transactions
       x-proxy-name: Get Non Qualifying Transactions By Merchant
+      x-child-product-name: Reporting
       operationId: GetNonQualifyingTransactionsByMerchant
       summary: Get Non Qualifying Transactions by Merchant.
       description: Return Non-qualifying transactions data of the selected merchant number.
@@ -6006,6 +6080,7 @@ paths:
         - Reporting Non Qualifying Transactions
       x-group-name: Reporting Non Qualifying Transactions
       x-proxy-name: Get Non Qualifying Transactions By Entity
+      x-child-product-name: Reporting
       operationId: GetNonQualifyingTransactionsByEntity
       summary: Get Non Qualifying Transaction Summary by Entity.
       description: Return Non-qualifying transactions data of hierarchy entity choice(s) based on the selected date range.
@@ -6090,6 +6165,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get North Merchant Entitlements
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantEntitlements
       summary: Get North Merchant Entitlements.
       description: Return entitlement data of the North merchant.
@@ -6174,6 +6250,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get North Merchant Entitlement Detail
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantEntitlementDetail
       summary: Get North Merchant Entitlement Detail.
       description: Return the detailed Entitlement data of specific product code for North merchant.
@@ -6258,6 +6335,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get North Merchant Entitlement Full
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantEntitlementFull
       summary: Get North Merchant Entitlement Full.
       description: Return full Entitlement data of specific product code for North merchant.
@@ -6342,6 +6420,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get North Merchant Pricing Information
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantPricingInformation
       summary: Get North Merchant Pricing Information.  
       description: Return the pricing information (merchant fee) for specific North merchant.
@@ -6426,6 +6505,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get North Merchant Profile
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantProfile
       summary: Get North Merchant Profile.
       description: Return a full profile data for specific North merchant.
@@ -6510,6 +6590,7 @@ paths:
         - Reporting Merchant Statements
       x-group-name: Reporting Merchant Statements
       x-proxy-name: Get North Merchant Statement
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantStatement
       summary: Get North Merchant Statement.
       description: Get Statement for North Merchant.
@@ -6594,6 +6675,7 @@ paths:
         - Reporting Merchant Statements
       x-group-name: Reporting Merchant Statements
       x-proxy-name: Get North Merchant Statement List
+      x-child-product-name: Reporting
       operationId: GetNorthMerchantStatementList
       summary: Get North Merchant Statement List.
       description: Get Statement List for North Merchant.
@@ -6678,6 +6760,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Optis Merchant Card Information Private Label
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantCardInformationPrivateLabel
       summary: Get Optis Merchant Card Information Private Label.
       description: Return the detailed data of Private Label Card Type for specific Omaha merchant.
@@ -6762,6 +6845,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Optis Merchant Card Type
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantCardType
       summary: Get Optis Merchant Card Type.
       description: Return the card type list for specific Omaha merchant.
@@ -6846,6 +6930,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Optis Merchant Card Type Pin Debit
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantCardTypePinDebit
       summary: Get Optis Merchant Card Type Pin Debit.
       description: Return a list of Card Type PIN Debit for specific Omaha merchant.
@@ -6930,6 +7015,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Optis Merchant Memos
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantMemos
       summary: Get Optis Merchant Memos.
       description: Return Memos data for specific Omaha merchant.
@@ -7014,6 +7100,7 @@ paths:
         - Reporting Merchant Information
       x-group-name: Reporting Merchant Information
       x-proxy-name: Get Optis Merchant Profile
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantProfile
       summary: Get Optis Merchant Profile.
       description: Return the list of comment for specific merchant.
@@ -7098,6 +7185,7 @@ paths:
         - Reporting Merchant Statements
       x-group-name: Reporting Merchant Statements
       x-proxy-name: Get Optis Merchant Statement
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantStatement
       summary: Get Optis Merchant Statement.
       description: Return statement data for a merchant statement.
@@ -7182,6 +7270,7 @@ paths:
         - Reporting Merchant Statements
       x-group-name: Reporting Merchant Statements
       x-proxy-name: Get Optis Merchant Statement List
+      x-child-product-name: Reporting
       operationId: GetOptisMerchantStatementList
       summary: Get Optis Merchant Statement List.
       description: Return available statements for a merchant.
@@ -7266,6 +7355,7 @@ paths:
         - Reporting Payment
       x-group-name: Reporting Payment
       x-proxy-name: Get Payment Detail
+      x-child-product-name: Reporting
       operationId: GetPaymentDetail
       summary: Get Payment Detail.
       description: Return detailed payment data of the selected merchant number.
@@ -7350,6 +7440,7 @@ paths:
         - Reporting Payment
       x-group-name: Reporting Payment
       x-proxy-name: Get Payment Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetPaymentSummaryByEntity
       summary: Get Payment Summary by Entity.
       description: Return payment data of the entity choices based on the selected date range.
@@ -7434,6 +7525,7 @@ paths:
         - Reporting Payment
       x-group-name: Reporting Payment
       x-proxy-name: Get Payment Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetPaymentSummaryByMerchant
       summary: Get Payment Summary by Merchant.
       description: Return payment data of selected merchant number.
@@ -7518,6 +7610,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Reject ETC FrontEnd Edit Exceptions By Entity
+      x-child-product-name: Reporting
       operationId: GetRejectETCFrontEndEditExceptionsByEntity
       summary: Get Reject ETC Front End Edit Exceptions by Entity.
       description: Return ETC Front End Edit Exceptions (CD-016) data of the entity choices based on the.
@@ -7602,6 +7695,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Reject ETC FrontEnd Edit Exceptions By Merchant
+      x-child-product-name: Reporting
       operationId: GetRejectETCFrontEndEditExceptionsByMerchant
       summary: Get Reject ETC Front End Edit Exceptions by Merchant.
       description: Return ETC Front End Edit Exceptions (CD-016) data of selected merchant number.
@@ -7686,6 +7780,7 @@ paths:
         - Reporting Retrievals
       x-group-name: Reporting Retrievals
       x-proxy-name: Get Retrievals Detail
+      x-child-product-name: Reporting
       operationId: GetRetrievalsDetail
       summary: Get Retrievals Detail.
       description: Return detailed data of retrieval transactions of a specific merchant number, based on the selected date range.
@@ -7770,6 +7865,7 @@ paths:
         - Reporting Retrievals
       x-group-name: Reporting Retrievals
       x-proxy-name: Get Retrievals Summamry
+      x-child-product-name: Reporting
       operationId: GetRetrievalsSummary
       summary: Get Retrievals Summary.
       description: Return summarized retrieval data based on the selected date range.
@@ -7854,6 +7950,7 @@ paths:
         - Reporting Returns
       x-group-name: Reporting Returns
       x-proxy-name: Get Returns Report By Entity
+      x-child-product-name: Reporting
       operationId: GetReturnsReportByEntity
       summary: Get Returns Report by Entity.
       description: ''
@@ -7938,6 +8035,7 @@ paths:
         - Reporting Returns
       x-group-name: Reporting Returns
       x-proxy-name: Get Returns Report By Merchant
+      x-child-product-name: Reporting
       operationId: GetReturnsReportByMerchant
       summary: Get Returns Report by Merchant.
       description: ''
@@ -8022,6 +8120,7 @@ paths:
         - Reporting Returns
       x-group-name: Reporting Returns
       x-proxy-name: Get Returns Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetReturnsSummaryByEntity
       summary: Get Returns Summary by Entity.
       description: ''
@@ -8106,6 +8205,7 @@ paths:
         - Reporting Returns
       x-group-name: Reporting Returns
       x-proxy-name: Get Returns Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetReturnsSummaryByMerchant
       summary: Get Returns Summary by Merchant.
       description: ''
@@ -8190,6 +8290,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Tape Transmittal Rejects By Entity
+      x-child-product-name: Reporting
       operationId: GetTapeTransmittalRejectsByEntity
       summary: Get Tape Transmittal Rejects by Entity.
       description: Return Tape Transmittal Rejects (CD-1430) data of the entity choices based on the selected date range.
@@ -8274,6 +8375,7 @@ paths:
         - Reporting Monetary Rejects
       x-group-name: Reporting Monetary Rejects
       x-proxy-name: Get Tape Transmittal Rejects By Merchant
+      x-child-product-name: Reporting
       operationId: GetTapeTransmittalRejectsByMerchant
       summary: Get Tape Transmittal Rejects by Merchant.
       description: Return Tape Transmittal Rejects (CD-1430) data of selected merchant number.
@@ -8358,6 +8460,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Adhoc
+      x-child-product-name: Reporting
       operationId: GetTaxReportAdhoc
       summary: Get Tax Report Adhoc.
       description: Return TIN Matching Ad-hoc report.
@@ -8442,6 +8545,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Daily Submitted Detail By Entity
+      x-child-product-name: Reporting
       operationId: GetTaxReportDailySubmittedDetailByEntity
       summary: Get Tax Report Daily Submitted Detail by Entity.
       description: Return daily submitted TIN matching summary data of hierarchy entity choice(s) based on the selected date range.
@@ -8526,6 +8630,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Daily Submitted Detail By Merchant
+      x-child-product-name: Reporting
       operationId: GetTaxReportDailySubmittedDetailByMerchant
       summary: Get Tax Report Daily Submitted Detail by Merchant.
       description: Return daily submitted TIN matching detail data of the selected merchant number.
@@ -8610,6 +8715,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Daily Submitted Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetTaxReportDailySubmittedSummaryByEntity
       summary: Get Tax Report Daily Submitted Summary by Entity.
       description: Return daily submitted TIN matching summary data of hierarchy entity choice(s) based on the selected date range.
@@ -8694,6 +8800,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Daily Submitted Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetTaxReportDailySubmittedSummaryByMerchant
       summary: Get Tax Report Daily Submitted Summary by Merchant.
       description: Return daily submitted TIN matching summary data of the selected merchant number.
@@ -8778,6 +8885,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Monthly Invalid Detail By Entity
+      x-child-product-name: Reporting
       operationId: GetTaxReportMonthlyInvalidDetailByEntity
       summary: Get Tax Report Monthly Invalid Detail by Entity.
       description: Return monthly invalid detail tax data of hierarchy entity choice(s) based on the selected date range.
@@ -8862,6 +8970,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Monthly Invalid Detail By Merchant
+      x-child-product-name: Reporting
       operationId: GetTaxReportMonthlyInvalidDetailByMerchant
       summary: Get Tax Report Monthly Invalid Detail by Merchant. 
       description: Return monthly invalid detail tax data of the selected merchant number.
@@ -8946,6 +9055,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Monthly Invalid Summary By Entity
+      x-child-product-name: Reporting
       operationId: GetTaxReportMonthlyInvalidSummaryByEntity
       summary: Get Tax Report Monthly Invalid Summary by Entity. 
       description: Return monthly invalid summary tax data of hierarchy entity choice(s) based on the selected date range.
@@ -9030,6 +9140,7 @@ paths:
         - Reporting Tax Report
       x-group-name: Reporting Tax Report
       x-proxy-name: Get Tax Report Monthly Invalid Summary By Merchant
+      x-child-product-name: Reporting
       operationId: GetTaxReportMonthlyInvalidSummaryByMerchant
       summary: Get Tax Report Monthly Invalid Summary by Merchant. 
       description: Return monthly invalid summary tax data of the selected merchant number.
@@ -9114,6 +9225,7 @@ paths:
         - Reporting Transactions
       x-group-name: Reporting Transactions
       x-proxy-name: Get Transactions
+      x-child-product-name: Reporting
       operationId: GetTransactions
       summary: Get Transactions.
       description: Return a list of detailed transactions data based on the selected criteria
@@ -9198,6 +9310,7 @@ paths:
         - Reporting Void Rejects
       x-group-name: Reporting Void Rejects
       x-proxy-name: Get Voids Rejects Detail
+      x-child-product-name: Reporting
       operationId: GetVoidsRejectsDetail
       summary: Get Voids Rejects Detail.
       description: Return detailed data of voids/rejects transactions of a specific merchant number, based on the selected date range.
@@ -9282,6 +9395,7 @@ paths:
         - Reporting Void Rejects
       x-group-name: Reporting Void Rejects
       x-proxy-name: Get Voids Rejects Summary
+      x-child-product-name: Reporting
       operationId: GetVoidsRejectsSummary
       summary: Get Voids Rejects Summary.
       description: Return summarized data of voids/rejects transactions based on the selected date range.
@@ -9366,6 +9480,7 @@ paths:
         - Reporting Transactions
       x-group-name: Reporting Transactions
       x-proxy-name: Get Voucher
+      x-child-product-name: Reporting
       operationId: GetVoucher
       summary: Get Voucher.
       description: Return voucher details of the selected transaction
