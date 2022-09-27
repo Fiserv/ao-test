@@ -210,8 +210,8 @@ paths:
     post:
       tags:
         - Boarding North
-      x-group-name: Boarding North
-      x-proxy-name: Get North Status By Time Span
+      x-group-name: North
+      x-proxy-name: Get Status By Time Span
       x-child-product-name: Boarding
       operationId: northGetStatusByTimeSpan
       summary: Get North Boarding Status by Time Span.
@@ -256,8 +256,8 @@ paths:
     post:
       tags:
         - Boarding North
-      x-group-name: Boarding North
-      x-proxy-name: Retrieve North MPA XML
+      x-group-name: North
+      x-proxy-name: Retrieve MPA XML
       x-child-product-name: Boarding
       operationId: northRetrieveMpaXml
       summary: Get North Boarding Request Data.
@@ -302,8 +302,8 @@ paths:
     post:
       tags:
         - Boarding North
-      x-group-name: Boarding North
-      x-proxy-name: North Search By External Reference ID
+      x-group-name: North
+      x-proxy-name: Search By External Reference ID
       x-child-product-name: Boarding
       operationId: NorthSearchByExtRefID
       summary: Search North Boarding by External Reference ID
@@ -348,8 +348,8 @@ paths:
     post:
       tags:
         - Boarding North
-      x-group-name: Boarding North
-      x-proxy-name: Submit North MPA
+      x-group-name: North
+      x-proxy-name: Submit MPA
       x-child-product-name: Boarding
       operationId: NorthSubmitMPA
       summary: Submit North Boarding Request Data.
@@ -394,8 +394,8 @@ paths:
     post:
       tags:
         - Boarding Optis
-      x-group-name: Boarding Optis
-      x-proxy-name: Get Optis Status By Time Span
+      x-group-name: Optis
+      x-proxy-name: Get Status By Time Span
       x-child-product-name: Boarding
       operationId: optisGetStatusByTimeSpan
       summary: Get Optis Boarding Status by Time Span.
@@ -440,8 +440,8 @@ paths:
     post:
       tags:
         - Boarding Optis
-      x-group-name: Boarding Optis
-      x-proxy-name: Retrieve Optis MPA XML
+      x-group-name: Optis
+      x-proxy-name: Retrieve MPA XML
       x-child-product-name: Boarding
       operationId: optisRetrieveMpaXml
       summary: Get Optis Boarding Request Data.
@@ -486,8 +486,8 @@ paths:
     post:
       tags:
         - Boarding Optis
-      x-group-name: Boarding Optis
-      x-proxy-name: Optis Search By External Reference ID
+      x-group-name: Optis
+      x-proxy-name: Search By External Reference ID
       x-child-product-name: Boarding
       operationId: optisSearchByExtRefID
       summary: Search Optis Boarding by External Reference ID
@@ -532,8 +532,8 @@ paths:
     post:
       tags:
         - Boarding Optis
-      x-group-name: Boarding Optis
-      x-proxy-name: Submit Optis MPA
+      x-group-name: Optis
+      x-proxy-name: Submit MPA
       x-child-product-name: Boarding
       operationId: optisSubmitMPA
       summary: Submit Optis Boarding Request Data.
