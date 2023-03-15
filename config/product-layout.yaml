@@ -57,7 +57,7 @@ steps:
 benefits:
   - title: API Integration
     description: Leverage easy to use tools to pull in data for real time insight into customer behavior. Get up and running quickly and easily with our sample processes.
-    icon: assets/icons/icons.svg 
+    icon: assets/icons/icon.svg 
   - title: Real Time Data
     description: Create your own tracking applications utilizing relevant real time data for your business. Obtain actual metrics to create your own site design dashboards and brands for a catered customer experience.
   - title: Checklist
