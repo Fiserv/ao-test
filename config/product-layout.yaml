@@ -60,6 +60,7 @@ benefits:
     icon: assets/images/AccessOne.png 
   - title: Real Time Data
     description: Create your own tracking applications utilizing relevant real time data for your business. Obtain actual metrics to create your own site design dashboards and brands for a catered customer experience.
+    icon: assets/images/Fiserv_Logo.jpg 
   - title: Checklist
     description: Leverage our checklist to assure you have what you need for a complete integration into reporting APIs.
 featuredFeatures:
